@@ -8,7 +8,7 @@ int main(){
 // endl means end the line
 cout<<"Enter your marks"<<endl;
 int marks; //declaring the variable marks
-cin>>marks; //taking input via this
+cin>>marks; //taking input via this  
 
 cout<<marks<<endl;
 }
