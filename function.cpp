@@ -2,7 +2,7 @@
 using namespace std;
 // the functions are always declared above the main method 
 // otherwise you'll face error
-int summation(int a,int b);
+int summation(int a,int b); //declaring function
 int main(){
     int a = 20;
     int b = 40;

@@ -11,4 +11,6 @@ int marks; //declaring the variable marks
 cin>>marks; //taking input via this  
 
 cout<<marks<<endl;
+// return 0; yeh optional hai lgao ya na lagao koi khas farq nhi perta..
+
 }
