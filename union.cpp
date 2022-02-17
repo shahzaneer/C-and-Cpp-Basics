@@ -5,6 +5,8 @@ union pakistan{
     // union --> iske data members k darmiyan memory share hojati hai
     //  aur aik waqt main 
     // aik hi use hota hai 
+    // union main memory location jo hai wo sbse baray element k hisab se hoti hai!
+
 int lahore;
 int faislabad;
 int karachi;
@@ -22,6 +24,7 @@ int main(){
     cout<<p1.faislabad<<endl;
     cout<<p1.lahore<<endl;
     cout<<p1.karachi<<endl;
+
 
     return 0;
 }
