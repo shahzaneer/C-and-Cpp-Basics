@@ -27,6 +27,13 @@ int main(){
     // members[1] = 23; //error will be generated
     // cout<<members[1];
 
+
+    int arr2[10] = {1,2,3,4,5,6,7,8,9,10};
+
+    cout<<arr2; //like java it is also printing the address
+    // for elements looping is necesary!
+
+
     
 
 
