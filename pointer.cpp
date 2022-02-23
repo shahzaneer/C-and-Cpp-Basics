@@ -20,6 +20,13 @@ main(){
     cout<<"value of a is  "<<*p;
 // we can also store the address of another pointer in a pointer because a pointer is itself a
 // variable
+//! pointer variable ko kisi bhi data type k address ko store krne k liay srff 2 bytes chahiay hotay hain.
+// ! per isko same data type ka is liay declare krte hain q k jb hum derefrencing krte hain tou hum isse use kr sakain!
+
+
+
+
+
 int *d;
 d =p;
 cout<<"The address of pointer p is "<<d;
