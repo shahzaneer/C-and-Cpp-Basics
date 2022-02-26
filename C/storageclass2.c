@@ -5,8 +5,10 @@ int main(){
     // default --> value hoti hai 0
     // life --> tb tk rehti hai jb tk khtm na hojaye program
     // scope --> local level
-f1();
-f1();
+//! f1();
+// jb dusri baar pukara jayega function ko tou i ki value destroy nhi hui hogi!
+//! f1();
+
 
 
 

@@ -1,0 +1,2 @@
+# Return array from function
+- C programming language does not allow to return an entire array as an argument to a function. However, you can return a pointer to an array by specifying the array's name without an index.
