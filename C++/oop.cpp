@@ -13,6 +13,18 @@ class Abc{
         cout<<name<<endl;
         cout<<age<<endl;
     }
+
+    Abc(){}
+
+    ~Abc(){
+        cout<<"Destructor Called"<<endl;
+    }
+
+    Abc(Abc &a){
+        age = a.age;
+        name = a.name;
+
+    }
     
 }; //This semi colon is necessary!
 
@@ -29,6 +41,13 @@ int main(){
     fatima.age = 21;
 
     fatima.printInfo();
+
+    Abc Noor;
+    Noor = fatima; //Deep copy
+    Noor.printInfo();
+
+    // same concepts of default and parametrised constructors in cpp as of java
+    // there is also a destructor that is invoked when an object is destroyed.
 
     return 0;
 }
